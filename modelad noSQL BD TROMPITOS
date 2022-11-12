@@ -1,4 +1,3 @@
-
 #nosotros haremos nuestra base de datos noSQL enfocandonos en la facil lectura de datos, puesto que es lo que mas estaremos realizando y no ocupamos mayor complejidad
 
 usuarios = {
@@ -18,6 +17,7 @@ alimentos = {
     "id alimento": int,
     "nombre": String,
     "precio": int,
+    "disponible": bool,
     "categoria": {
         "id_categoria":int,
         "nombre": String
@@ -103,6 +103,7 @@ alimentos = [{
     "id alimento": 755501,
     "nombre": "agua_mazapan",
     "precio": 40,
+    "disponible": True,
     "categoria": {
         "id_categoria":8654524,
         "nombre":"bebidas"
@@ -113,6 +114,7 @@ alimentos = [{
     "id alimento": 755502,
     "nombre": "burrito",
     "precio": 60,
+    "disponible": True,
     "categoria": {
         "id_categoria":8654525,
         "nombre":"comidas"
@@ -124,6 +126,7 @@ alimentos = [{
     "id alimento": 755503,
     "nombre": "quesadilla",
     "precio": 50,
+    "disponible": True,
     "categoria": {
         "id_categoria":8654525,
         "nombre":"comidas"
@@ -135,6 +138,7 @@ alimentos = [{
     "id alimento": 755504,
     "nombre": "bobby fries",
     "precio": 40,
+    "disponible": True,
     "categoria": {
         "id_categoria":8654525,
         "nombre":"comidas"
@@ -218,3 +222,4 @@ mesa3 =[
        },
 
 ]
+
