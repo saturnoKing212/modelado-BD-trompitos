@@ -1,0 +1,220 @@
+
+#nosotros haremos nuestra base de datos noSQL enfocandonos en la facil lectura de datos, puesto que es lo que mas estaremos realizando y no ocupamos mayor complejidad
+
+usuarios = {
+    "idus": int,
+    "nombre": String,
+    "edad": int,
+    "correo": String,
+    "avatar": string,
+    "password": string,
+    "rol": string,
+    "estado": string
+}
+
+
+
+alimentos = {
+    "id alimento": int,
+    "nombre": String,
+    "precio": int,
+    "categoria": {
+        "id_categoria":int,
+        "nombre": String
+    }
+
+}
+
+#aqui solo uno pero mas abajo podemos observar con distintas mesas en funcionamiento
+mesa_n =[
+        {
+        "id alimento": int,
+        "cantidad": int,
+        "precio_unit": int
+       },
+         {
+         "id alimento": int,
+        "cantidad": int,
+        "precio_unit": int
+       }
+]
+
+
+
+####---------------------------------------------------------------------ya con algunos datos-----------------------------####################################################
+usuarios = [{
+    "idus": 9001,
+    "nombre": "chobis",
+    "edad": 21,
+    "correo": "correo@gmail.com",
+    "avatar": "ruta_avatar",
+    "password": "Contrasena154",
+    "rol": "cocinero",
+    "estado": "activo"
+},
+    {
+    "idus": 9002,
+    "nombre": "celene",
+    "edad": 20,
+    "correo": "correo@gmail.com",
+    "avatar": "ruta_avatar",
+    "password": "Contrasena768",
+    "rol": "barista",
+    "estado": "activo"
+}
+    ,
+    {
+    "idus": 9003,
+    "nombre": "mariano",
+    "edad": 29,
+    "correo": "correo@gmail.com",
+    "avatar": "ruta_avatar",
+    "password": "Contrasena754",
+    "rol": "mesero",
+    "estado": "activo"
+}
+    ,
+    {
+    "idus": 9004,
+    "nombre": "alejandra",
+    "edad": 25,
+    "correo": "correo@gmail.com",
+    "avatar": "ruta_avatar",
+    "password": "Contrasena784",
+    "rol": "cajera",
+    "estado": "activo"
+}
+    ,
+    {
+    "idus": 9005,
+    "nombre": "jorge",
+    "edad": 29,
+    "correo": "correo@gmail.com",
+    "avatar": "ruta_avatar",
+    "password": "Contrasena794",
+    "rol": "administrador",
+    "estado": "activo"
+}
+    ]
+
+
+
+alimentos = [{
+    "id alimento": 755501,
+    "nombre": "agua_mazapan",
+    "precio": 40,
+    "categoria": {
+        "id_categoria":8654524,
+        "nombre":"bebidas"
+    }
+
+},
+    {
+    "id alimento": 755502,
+    "nombre": "burrito",
+    "precio": 60,
+    "categoria": {
+        "id_categoria":8654525,
+        "nombre":"comidas"
+    }
+
+}
+    ,
+    {
+    "id alimento": 755503,
+    "nombre": "quesadilla",
+    "precio": 50,
+    "categoria": {
+        "id_categoria":8654525,
+        "nombre":"comidas"
+    }
+
+}
+    ,
+    {
+    "id alimento": 755504,
+    "nombre": "bobby fries",
+    "precio": 40,
+    "categoria": {
+        "id_categoria":8654525,
+        "nombre":"comidas"
+    }
+
+}
+]
+
+#con las mesas tenemos definido mantener un numero exacto(la cantidad de mesas que hay en el local) e ir limpiando los datos cuando se desocupe
+mesa1 =[
+        {
+        "id alimento": 755501,
+        "cantidad": 4,
+        "precio_unit": 40
+       },
+         {
+        "id alimento": 755502,
+        "cantidad": 2,
+        "precio_unit": 40
+       },
+     {
+        "id alimento": 755503,
+        "cantidad": 3,
+        "precio_unit": 40
+       },
+     {
+        "id alimento": 755504,
+        "cantidad": 1,
+        "precio_unit": 40
+       },
+
+]
+
+
+mesa2 =[
+        {
+        "id alimento": 755501,
+        "cantidad": 4,
+        "precio_unit": 40
+       },
+         {
+        "id alimento": 755502,
+        "cantidad": 2,
+        "precio_unit": 40
+       },
+     {
+        "id alimento": 755503,
+        "cantidad": 3,
+        "precio_unit": 40
+       },
+     {
+        "id alimento": 755504,
+        "cantidad": 1,
+        "precio_unit": 40
+       },
+
+]
+
+
+
+mesa3 =[
+        {
+        "id alimento": 755501,
+        "cantidad": 4,
+        "precio_unit": 40
+       },
+         {
+        "id alimento": 755502,
+        "cantidad": 2,
+        "precio_unit": 40
+       },
+     {
+        "id alimento": 755503,
+        "cantidad": 3,
+        "precio_unit": 40
+       },
+     {
+        "id alimento": 755504,
+        "cantidad": 1,
+        "precio_unit": 40
+       },
+
+]
